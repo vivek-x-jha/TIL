@@ -8,8 +8,6 @@
  Write a SQL query to find employees who earn the top three salaries in each of the department.
  For the above tables, your SQL query should return the following rows (order of rows does not matter).
  */
-
-# Write your MySQL query statement below
 with merged as (
     select
         d.name as Department,
