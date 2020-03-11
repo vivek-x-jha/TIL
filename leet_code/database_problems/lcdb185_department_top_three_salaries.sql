@@ -13,7 +13,7 @@ with merged as (
         d.name as Department,
         e.name as Employee,
         e.salary as Salary
-    from employee e
+    from employees e
     left join department d
     on e.departmentid=d.id
 ),
